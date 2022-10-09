@@ -1,9 +1,8 @@
 import React from 'react'
-import {Suspense, useRef,useState} from 'react'
-import { Canvas} from '@react-three/fiber'
-import {OrbitControls, useGLTF} from '@react-three/drei'
+//import {useRef} from 'react'
+import { useGLTF} from '@react-three/drei'
 function Model({ ...props }) {
-    const group = useRef()
+    //const group = useRef()
     const { nodes, materials } = useGLTF('/nftverse.glb')
     return (
       <group {...props} dispose={null} scale={0.2}>

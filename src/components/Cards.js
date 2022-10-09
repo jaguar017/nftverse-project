@@ -1,7 +1,7 @@
 import React from 'react'
-import {Suspense, useRef,useState} from 'react'
+import {Suspense,useState} from 'react'
 import { Canvas} from '@react-three/fiber'
-import {OrbitControls, useGLTF} from '@react-three/drei'
+import {OrbitControls} from '@react-three/drei'
 import Model from "./Model"
 function Cards(props) {
     const [tube,setTube] = useState("#ffffff")
