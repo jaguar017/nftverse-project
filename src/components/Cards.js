@@ -2,7 +2,7 @@ import React from 'react'
 import {Suspense,useState} from 'react'
 import { Canvas} from '@react-three/fiber'
 import {OrbitControls} from '@react-three/drei'
-import Model from "./Model"
+import Model from "../components/Model"
 function Cards(props) {
     const [tube,setTube] = useState("#ffffff")
     const [stone,setStone] = useState("#ffffff")
