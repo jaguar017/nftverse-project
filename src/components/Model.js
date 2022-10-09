@@ -3,7 +3,7 @@ import React from 'react'
 import { useGLTF} from '@react-three/drei'
 function Model({ ...props }) {
     //const group = useRef()
-    const { nodes, materials } = useGLTF('../../public/nftverse.glb')
+    const { nodes, materials } = useGLTF('../../public/model.gltf')
     return (
       <group {...props} dispose={null} scale={0.2}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
