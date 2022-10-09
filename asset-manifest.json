@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nftverse-project/static/css/main.d1c46449.css",
-    "main.js": "/nftverse-project/static/js/main.87e2e1ff.js",
+    "main.js": "/nftverse-project/static/js/main.d93e582c.js",
     "static/js/787.d451e145.chunk.js": "/nftverse-project/static/js/787.d451e145.chunk.js",
     "index.html": "/nftverse-project/index.html",
     "main.d1c46449.css.map": "/nftverse-project/static/css/main.d1c46449.css.map",
-    "main.87e2e1ff.js.map": "/nftverse-project/static/js/main.87e2e1ff.js.map",
+    "main.d93e582c.js.map": "/nftverse-project/static/js/main.d93e582c.js.map",
     "787.d451e145.chunk.js.map": "/nftverse-project/static/js/787.d451e145.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1c46449.css",
-    "static/js/main.87e2e1ff.js"
+    "static/js/main.d93e582c.js"
   ]
 }
